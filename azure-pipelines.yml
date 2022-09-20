@@ -53,7 +53,7 @@ stages:
               script: |
                 cd buildandreleasetask # Update to the name of the directory of your task
                 tsc
-          - task: QueryAzureDevOpsExtensionVersion@3
+          - task: QueryAzureDevOpsExtensionVersion@2
             inputs:
               connectTo: 'VsTeam'
               connectedServiceName: 'vsmarketplace' # Change to whatever you named the service connection
