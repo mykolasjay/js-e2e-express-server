@@ -50,3 +50,6 @@
     "trailingComma": "es5"
   }
 }
+"scripts": {
+    "testScript": "mocha ./TestFile --reporter xunit --reporter-option output=ResultsFile.xml"
+},
